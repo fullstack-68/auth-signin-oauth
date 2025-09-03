@@ -1,3 +1,7 @@
-# Auth-MPA - V2
+# Auth-MPA - OAuth
 
-- Login with OAuth
+- Fill in `.env`
+  - Make sure to update `Callback URL` in your Github Oauth app.
+- `pnpm i`
+- `npm run db:reset`
+- `npm run dev`
